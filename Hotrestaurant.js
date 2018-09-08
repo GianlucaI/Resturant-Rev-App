@@ -33,9 +33,9 @@ app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-// app.get('/table', function(req, res) {
-//   res.sendFile(path.join(__dirname, 'table.html'));
-// });
+app.get('/table', function(req, res) {
+  res.sendFile(path.join(__dirname, 'table.html'));
+});
 
 // app.get('/makereservations', function(req, res) {
 //   res.sendFile(path.join(__dirname, 'makereservations.html'));
