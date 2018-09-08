@@ -34,7 +34,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/table', function(req, res) {
-  res.sendFile(path.join(__dirname, 'table.html'));
+  res.sendFile(path.join(__dirname, 'tables.html'));
 });
 
 // app.get('/makereservations', function(req, res) {
